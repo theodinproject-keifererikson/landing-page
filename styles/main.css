@@ -8,7 +8,7 @@ body {
 
 header {
   background-color: #1f2937;
-  padding: 1rem;
+  padding: 1rem 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,6 +29,56 @@ a {
 }
 
 .main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding: 1rem 15%;
+  flex: 1;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.hero .hero-text h1 {
+  color: #f9faf8;
+  font-weight: extra-bold;
+  font-size: 48px;
+}
+
+.hero .hero-text p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero .hero-text button {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.hero img {
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.links {
+  padding: 1rem 20%;
+  flex: 1;
+}
+
+.quote {
+  padding: 1rem 20%;
+  flex: 1;
+}
+
+.sign-up {
+  padding: 1rem 15%;
   flex: 1;
 }
 
